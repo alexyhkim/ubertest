@@ -128,7 +128,6 @@ $(document).ready(function() {
 			var infowindow = new google.maps.InfoWindow({
 				content: movieObj['locations']
 			});
-			console.log(movieObj['locations']);
 			google.maps.event.addListener(marker, 'click', function() {
 				infowindow.open(map, marker);
 			});
