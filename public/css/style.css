@@ -1,0 +1,48 @@
+#map-container
+{
+	height: 375px;
+	width: 500px;
+	margin: 0px;
+	padding: 0px
+}
+
+#search-results
+{
+	font-size: 14px;
+	font-family: Arial;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 128px;
+	height: 120px;
+	width: 210px;
+	overflow: scroll;
+}
+
+li.movie:hover
+{
+	background-color: #6073EA;
+	cursor: pointer;
+}
+
+#info-box
+{
+	font-family: Arial;
+	font-size: 14px;
+	height: 100px;
+	width: 500px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: scroll;
+}
+
+#search-box
+{
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#loading
+{
+	font-size: 14px;
+	font-family: Arial;
+}
